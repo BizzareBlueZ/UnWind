@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\RayZonE\raybeamS\out\build\toolll\CMakeFiles\095e9f8a4757285c74f3c3bb1532b01b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BA8AED61-1A7F-3EEB-9D6D-B32A53D71A75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

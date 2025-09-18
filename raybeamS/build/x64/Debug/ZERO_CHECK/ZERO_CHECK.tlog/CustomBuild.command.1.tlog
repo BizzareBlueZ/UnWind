@@ -1,0 +1,10 @@
+^D:\RAYZONE\RAYBEAMS\BUILD\CMAKEFILES\2C385C2425FF2ECCDFD6D826DA6463C2\GENERATE.STAMP.RULE
+setlocal
+D:\RayZonE\bin\cmake.exe -SD:/RayZonE/raybeamS -BD:/RayZonE/raybeamS/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/RayZonE/raybeamS/build/now.c.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

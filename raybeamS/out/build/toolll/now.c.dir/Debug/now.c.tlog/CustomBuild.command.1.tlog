@@ -1,0 +1,10 @@
+^D:\RAYZONE\RAYBEAMS\CMAKELISTS.TXT
+setlocal
+D:\bin\cmake.exe -SD:/RayZonE/raybeamS -BD:/RayZonE/raybeamS/out/build/toolll --check-stamp-file D:/RayZonE/raybeamS/out/build/toolll/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
