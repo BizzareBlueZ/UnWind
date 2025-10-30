@@ -1,9 +1,0 @@
-{
-    "name": "now",
-    "description": "NOW",
-    "license": "MIT",
-    "dependencies": [
-        "raylib"
-    ]
-}
-    
